@@ -1,6 +1,6 @@
 let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 //  armazena um número inteiro aleatório entre 1 e 100.
-let tentativas = 5;
+let tentativas = 10;
 // Isso significa que o jogador terá 5 tentativas para adivinhar o número aleatório.
 
 function verificarPalpite() {
