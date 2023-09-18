@@ -17,14 +17,14 @@ function verificarPalpite() {
     tentativas--;
 
     if (palpite === numeroAleatorio) {
-        resultado.innerHTML = "<span>Parabéns! Você acertou!</span>";
+        resultado.innerHTML = "<span>Boa Vaso, Eita Glória! Você acertou!</span>";
         resultado.classList.add("vitoria");
         document.getElementById('adivinhar').disabled = true;
         // Se o palpite do usuário for igual ao número aleatório, isso significa que o jogador acertou. 
 
 
     } else if (tentativas === 0) {
-        resultado.innerHTML = "<span>Você perdeu! O número era " + numeroAleatorio + "</span>";
+        resultado.innerHTML = "<span>Você caiu na cilada do inimigo, mas Jesus é contigo! O número era " + numeroAleatorio + "</span>";
         resultado.classList.add("derrota");
         document.getElementById('adivinhar').disabled = true;
         // Se o jogador ficar sem tentativas (tentativas igual a 0), uma mensagem informando que o jogador perdeu é exibida, juntamente com o número correto
