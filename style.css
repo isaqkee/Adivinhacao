@@ -9,10 +9,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(https://w0.peakpx.com/wallpaper/1011/683/HD-wallpaper-question-mark-green-quebonafide.jpg);
   }
   
   .contenedor {
-    background-color: #333;
+    background-color:rgb(3, 184, 3);
     border-radius: 10px;
     padding: 20px;
     width: 300px;
@@ -51,7 +52,7 @@ body {
   }
   
   button {
-    background-color: #007bff;
+    background-color:  rgb(96, 1, 96);
     color: white;
     border: none;
     border-radius: 5px;
