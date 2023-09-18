@@ -10,6 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     background-image: url(https://w0.peakpx.com/wallpaper/1011/683/HD-wallpaper-question-mark-green-quebonafide.jpg);
+    backdrop-filter: blur(10px);
   }
   
   .contenedor {
